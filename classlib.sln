@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.Common.EntityModels.SqlServer", "Northwind.Common.EntityModels.SqlServer\Northwind.Common.EntityModels.SqlServer.csproj", "{938B85A3-498A-48FC-B5D9-C4496FC61F0B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.Common.DataContext.SqlServer", "Northwind.Common.DataContext.SqlServer\Northwind.Common.DataContext.SqlServer.csproj", "{01FCB710-1066-48A0-BDF6-93E095F2F5CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Common.EntityModels.Tests", "Northwind.Common.EntityModels.Tests\Northwind.Common.EntityModels.Tests.csproj", "{8B4DC6A7-FE42-4A39-906D-C7A79D56CE26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{938B85A3-498A-48FC-B5D9-C4496FC61F0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{938B85A3-498A-48FC-B5D9-C4496FC61F0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{938B85A3-498A-48FC-B5D9-C4496FC61F0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{938B85A3-498A-48FC-B5D9-C4496FC61F0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01FCB710-1066-48A0-BDF6-93E095F2F5CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01FCB710-1066-48A0-BDF6-93E095F2F5CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01FCB710-1066-48A0-BDF6-93E095F2F5CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01FCB710-1066-48A0-BDF6-93E095F2F5CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B4DC6A7-FE42-4A39-906D-C7A79D56CE26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B4DC6A7-FE42-4A39-906D-C7A79D56CE26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B4DC6A7-FE42-4A39-906D-C7A79D56CE26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B4DC6A7-FE42-4A39-906D-C7A79D56CE26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A4079226-D421-4F8D-8939-C6B1F60DCE2B}
+	EndGlobalSection
+EndGlobal
